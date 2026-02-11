@@ -88,11 +88,11 @@
   },
   "battery": {
     "format": "{icon}",
-    "format-charging": "{icon}+",
+    "format-charging": "{icon} +",
     "format-icons": ["", "", "", "", ""],
     "format-full": "{icon}",
     "interval": 5,
-    "tooltip": "{percentage}%",
+    "tooltip": "{percentage}",
     "states": {
       "warning": 20,
       "critical": 10
