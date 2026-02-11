@@ -8,7 +8,7 @@
     border-radius: 0;
     min-height: 0;
     font-family: CaskaydiaMono Nerd Font;
-    font-size: 16px;
+    font-size: 12px;
 }
 
 window#waybar {
@@ -37,17 +37,17 @@ window#waybar {
 #cpu,
 #bluetooth,
 #pulseaudio,
-#network,
 #clock,
-#battery,
-#custom-exit,
+#network,
+#custom-updates,
 #custom-openwebui,
 #custom-brightness,
 #custom-hypridle,
+#custom-screenrecord,
 #custom-filemanager {
     min-width: 12px;
     margin: 0 8px;
-    font-size: 16px;
+    font-size: 11px;
 }
 
 #custom-hypridle.notactive {
@@ -61,4 +61,16 @@ tooltip {
 
 tooltip label {
     color: @foreground;
+}
+
+#custom-distro-logo {
+    font-size: 12px;    
+    padding-right: 10px; 
+    font-weight: bold;
+}
+
+#battery {
+    min-width: 12px;
+    margin: 0 8px;
+    font-size: 14px;
 }

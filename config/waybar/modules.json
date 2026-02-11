@@ -44,8 +44,7 @@
     "max-length": 50
   },
   "clock": {
-    "format": "{:%A %H:%M}",
-    "format-alt": "{:%d %B %Y}",
+    "format": "{:%d %A %H:%M %p}",
     "tooltip": false
   },
   "cpu": {
@@ -76,10 +75,10 @@
       "󰤥",
       "󰤨"
     ],
-    "format": "{icon}",
-    "format-wifi": "{icon}",
-    "format-ethernet": "󰀂",
-    "format-disconnected": "󰤮",
+    "format": "Wifi",
+    "format-wifi": "Wifi",
+    "format-ethernet": "Ethernet",
+    "format-disconnected": "No network",
     "tooltip-format-wifi": "{essid} ({frequency} GHz)\n⇣{bandwidthDownBytes}  ⇡{bandwidthUpBytes}",
     "tooltip-format-ethernet": "⇣{bandwidthDownBytes}  ⇡{bandwidthUpBytes}",
     "tooltip-format-disconnected": "Disconnected",
@@ -88,50 +87,21 @@
     "on-click": "ghostty --class=local.floating -e impala"
   },
   "battery": {
-    "format": "{capacity}% {icon}",
-    "format-discharging": "{icon}",
-    "format-charging": "{icon}",
-    "format-plugged": "",
-    "format-icons": {
-      "charging": [
-        "󰢜",
-        "󰂆",
-        "󰂇",
-        "󰂈",
-        "󰢝",
-        "󰂉",
-        "󰢞",
-        "󰂊",
-        "󰂋",
-        "󰂅"
-      ],
-      "default": [
-        "󰁺",
-        "󰁻",
-        "󰁼",
-        "󰁽",
-        "󰁾",
-        "󰁿",
-        "󰂀",
-        "󰂁",
-        "󰂂",
-        "󰁹"
-      ]
-    },
-    "format-full": "󰂅",
-    "tooltip-format-discharging": "{power:>1.0f}W↓ {capacity}%",
-    "tooltip-format-charging": "{power:>1.0f}W↑ {capacity}%",
+    "format": "{icon}",
+    "format-charging": "{icon}+",
+    "format-icons": ["", "", "", "", ""],
+    "format-full": "{icon}",
     "interval": 5,
-    "on-click": "walker -t menus -m menus:power-profiles -N -n",
+    "tooltip": "{percentage}%",
     "states": {
       "warning": 20,
       "critical": 10
     }
   },
   "bluetooth": {
-    "format": "",
-    "format-disabled": "󰂲",
-    "format-connected": "",
+    "format": "Bluetooth",
+    "format-disabled": "Bluetooth",
+    "format-connected": "Bluetooth",
     "tooltip-format": "Devices connected: {num_connections}",
     "on-click": "ghostty --class=local.bluetui -e bluetui"
   },

@@ -35,24 +35,24 @@
     },
     // Modules Left
     "modules-left": [
-        "hyprland/workspaces",
-        "custom/filemanager"
+        "custom/distro-logo",
+        "hyprland/workspaces"
     ],
 
     // Modules Center
     "modules-center": [
-        "clock"
     ],
 
     // Modules Right
     "modules-right": [
-        "custom/updates",
-        "pulseaudio",
-        "bluetooth",
-        "network",
-        "cpu",
-        "custom/hypridle",
         "battery",
-        "custom/exit"
-    ]
+        "network",
+        "bluetooth",
+        "clock"
+    ],
+    "custom/distro-logo": {
+        "format": "", // Aqui você coloca o ícone ou letra (ex: "A")
+        "tooltip": false,
+        "on-click": "walker" // Opcional: abrir o menu ao clicar
+    }
 }
