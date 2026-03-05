@@ -75,10 +75,10 @@
       "󰤥",
       "󰤨"
     ],
-    "format": "Wifi",
-    "format-wifi": "Wifi",
-    "format-ethernet": "Ethernet",
-    "format-disconnected": "No network",
+    "format": "{icon}",
+    "format-wifi": "{icon}",
+    "format-ethernet": "󰀂",
+    "format-disconnected": "󰤮",
     "tooltip-format-wifi": "{essid} ({frequency} GHz)\n⇣{bandwidthDownBytes}  ⇡{bandwidthUpBytes}",
     "tooltip-format-ethernet": "⇣{bandwidthDownBytes}  ⇡{bandwidthUpBytes}",
     "tooltip-format-disconnected": "Disconnected",
@@ -88,7 +88,7 @@
   },
   "battery": {
     "format": "{icon}",
-    "format-charging": "{icon} +",
+    "format-charging": "{icon} 󱐋",
     "format-icons": ["", "", "", "", ""],
     "format-full": "{icon}",
     "interval": 5,
@@ -99,9 +99,9 @@
     }
   },
   "bluetooth": {
-    "format": "Bluetooth",
-    "format-disabled": "Bluetooth",
-    "format-connected": "Bluetooth",
+    "format": "",
+    "format-disabled": "󰂲",
+    "format-connected": "",
     "tooltip-format": "Devices connected: {num_connections}",
     "on-click": "ghostty --class=local.bluetui -e bluetui"
   },

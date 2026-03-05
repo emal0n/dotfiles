@@ -22,11 +22,18 @@ window#waybar {
     margin: 8px 10px 8px 0px;
 }
 
-#workspaces button {
+#workspaces button{
     all: initial;
     padding: 0 6px;
     margin: 0 1.5px;
     min-width: 9px;
+    color: #ffffff;
+}
+
+#clock{
+    min-width: 12px;
+    margin: 0 5px;
+    font-size: 11px;
     color: #ffffff;
 }
 
@@ -38,7 +45,6 @@ window#waybar {
 #cpu,
 #bluetooth,
 #pulseaudio,
-#clock,
 #network,
 #custom-updates,
 #custom-openwebui,
@@ -47,8 +53,8 @@ window#waybar {
 #custom-screenrecord,
 #custom-filemanager {
     min-width: 12px;
-    margin: 0 8px;
-    font-size: 11px;
+    margin: 0 5px;
+    font-size: 12px;
     color: #ffffff;
 }
 
@@ -73,9 +79,7 @@ tooltip label {
 }
 
 #battery {
-    min-width: 12px;
-    margin: 0 8px;
-    font-size: 14px;
+    font-size: 15px;
     color: #ffffff;
 }
 
