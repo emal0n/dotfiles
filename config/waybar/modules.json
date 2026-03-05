@@ -91,7 +91,7 @@
     "format-charging": "{icon} 󱐋",
     "format-icons": ["", "", "", "", ""],
     "format-full": "{icon}",
-    "interval": 5,
+    "interval": 1,
     "tooltip": "{percentage}",
     "states": {
       "warning": 20,
