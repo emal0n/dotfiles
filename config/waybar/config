@@ -45,9 +45,9 @@
 
     // Modules Right
     "modules-right": [
-        "battery",
-        "network",
         "bluetooth",
+        "network",
+        "battery",
         "clock"
     ],
     "custom/distro-logo": {

@@ -33,7 +33,7 @@ window#waybar {
 #clock{
     min-width: 12px;
     margin: 0 5px;
-    font-size: 11px;
+    font-size: 12px;
     color: #ffffff;
 }
 
@@ -53,8 +53,8 @@ window#waybar {
 #custom-screenrecord,
 #custom-filemanager {
     min-width: 12px;
-    margin: 0 5px;
-    font-size: 12px;
+    margin: 0 4px;
+    font-size: 13px;
     color: #ffffff;
 }
 
@@ -80,7 +80,7 @@ tooltip label {
 
 #battery {
     margin: 1 6px;
-    font-size: 15px;
+    font-size: 16px;
     color: #ffffff;
 }
 
