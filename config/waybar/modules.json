@@ -44,7 +44,7 @@
     "max-length": 50
   },
   "clock": {
-    "format": "{:%d %A %H:%M %p}",
+    "format": "{:%d %A %H:%M}",
     "tooltip": false
   },
   "cpu": {
