@@ -53,7 +53,7 @@ window#waybar {
 #custom-screenrecord,
 #custom-filemanager {
     min-width: 12px;
-    margin: 0 4px;
+    margin: 0 2px;
     font-size: 13px;
     color: #ffffff;
 }
@@ -79,15 +79,12 @@ tooltip label {
 }
 
 #battery {
-    margin: 1 8px;
-    font-size: 16px;
+    margin: 1 7px;
+    font-size: 12px;
     color: #ffffff;
-}
-
-#battery.warning {
-    color: #ffff00; /* Amarelo */
 }
 
 #battery.critical {
     color: #ff0000; /* Vermelho (opcional, para quando chegar em 10%) */
 }
+
