@@ -15,13 +15,6 @@ function GetEntries()
 			},
 		},
 		{
-			Text = "Tema da waybar",
-			Icon = "󰸌",
-			Actions = {
-				["change-waybar"] = "walker --theme menus -m menus:waybar-themes -N",
-			},
-		},
-		{
 			Text = "Tema do fastfetch",
 			Icon = "󰸌",
 			Actions = {

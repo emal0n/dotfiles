@@ -35,13 +35,6 @@ function GetEntries()
 			},
 		},
 		{
-			Text = "Próx. plano de fundo",
-			Icon = "",
-			Actions = {
-				["change-bg"] = "theme-bg-next",
-			},
-		},
-		{
 			Text = "Capturar",
 			Icon = "",
 			Actions = {

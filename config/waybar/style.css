@@ -56,6 +56,7 @@ window#waybar {
     margin: 0 2px;
     font-size: 13px;
     color: #ffffff;
+    min-height: 30px;
 }
 
 #custom-hypridle.notactive {
